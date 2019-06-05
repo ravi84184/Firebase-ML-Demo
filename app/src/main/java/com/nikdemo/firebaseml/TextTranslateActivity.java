@@ -61,7 +61,7 @@ public class TextTranslateActivity extends AppCompatActivity {
                 });
 
 // Delete the German model if it's on the device.
-        FirebaseTranslateRemoteModel deModel =
+/*        FirebaseTranslateRemoteModel deModel =
                 new FirebaseTranslateRemoteModel.Builder(FirebaseTranslateLanguage.HI).build();
         modelManager.deleteDownloadedModel(deModel)
                 .addOnSuccessListener(new OnSuccessListener<Void>() {
@@ -77,7 +77,7 @@ public class TextTranslateActivity extends AppCompatActivity {
                         Log.e(TAG, "onFailure:2 ",e );
                         // Error.
                     }
-                });
+                });*/
 
 // Download the French model.
         FirebaseModelDownloadConditions conditions = new FirebaseModelDownloadConditions.Builder()
@@ -112,6 +112,7 @@ public class TextTranslateActivity extends AppCompatActivity {
                                 public void onSuccess(@NonNull String translatedText) {
                                     Log.e(TAG, "onSuccess: "+translatedText );
                                     // Translation successful.
+                                    txt_result.setText(translatedText);
                                 }
                             })
                     .addOnFailureListener(

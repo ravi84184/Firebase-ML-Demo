@@ -25,5 +25,15 @@
             android:text="Language Change"/>
 
     </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/img_object"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Image Object Detection"/>
 
+    </LinearLayout>
 </LinearLayout>

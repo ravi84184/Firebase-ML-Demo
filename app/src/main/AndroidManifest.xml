@@ -15,7 +15,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".TextTranslateActivity"></activity>
+        <activity android:name=".ImageObjectActivity"></activity>
+        <activity android:name=".TextTranslateActivity" />
         <activity android:name=".ImageToTextActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

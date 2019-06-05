@@ -34,6 +34,8 @@ dependencies {
     implementation 'com.google.firebase:firebase-ml-vision:20.0.0'
     implementation 'com.google.firebase:firebase-ml-natural-language:19.0.1'
     implementation 'com.google.firebase:firebase-ml-natural-language-translate-model:19.0.1'
+    implementation 'com.google.firebase:firebase-ml-vision:20.0.0'
+    implementation 'com.google.firebase:firebase-ml-vision-object-detection-model:16.0.0'
 
 
 }

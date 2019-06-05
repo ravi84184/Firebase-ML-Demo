@@ -20,6 +20,9 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.text_language_change).setOnClickListener(v->{
             startActivity(new Intent(MainActivity.this,TextTranslateActivity.class));
         });
+        findViewById(R.id.img_object).setOnClickListener(v->{
+            startActivity(new Intent(MainActivity.this,ImageObjectActivity.class));
+        });
 
     }
 }
